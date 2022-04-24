@@ -1,10 +1,10 @@
 # CA-Markov program for Land Use Land Cover Classification with GeoAI
 This project is designed to predict future Land Use Land Cover Classification (LULC) changes from available data using a combination of Cellular Automata (CA) and Markov chain.
-##Setup
+## Setup
 -  Prerequisites: Python 3.7+, Python PIP installer, Jupyter notebook, Aligned LULC Classified images of a particular region seperated by equal time interval
 - Required python packages (PIL, NumPy, Pydrive, tabulate) can be installed with Python PIP
 - The location of the images needs to be set in the program
-##Execution
+## Execution
 - Images seperated by equal time interval, say T years, provide training dataset to generate matrix
 - New image can be taken as test for prediction
 - In CA predict, there is an option to choose mode of prediction

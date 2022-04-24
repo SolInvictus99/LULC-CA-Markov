@@ -8,7 +8,7 @@ This project is designed to predict future Land Use Land Cover Classification (L
 - Images seperated by equal time interval, say T years, provide training dataset to generate matrix
 - New image can be taken as test for prediction
 - In CA predict, there is an option to choose mode of prediction
-- For mod 0, only maximum probability of change is always selected
+- For mode 0, only maximum probability of change is always selected
 - For mode 1, random number is used to assign prediction values so that all probabilties are considered
 - Program takes around 40-50 minutes to generate output
 - Output file will be generated in BMP format, stored in the same folder as the code and will contain prediction on test image for T years in future
